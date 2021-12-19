@@ -8,12 +8,12 @@
 
 #### Склонируйте репозиторий с помощью git:
 ```sh
-git clone https://github.com/PontificSalivan/questionnaireAPI
+git clone https://github.com/PontificSalivan/ApiForQuestionnaire
 ```
 
 #### Перейдите в директорию проекта:
 ```sh
-cd ./Questionnaire_API
+cd ./ApiForQuestionnaire
 ```
 #### Запустите команду docker:
 ```sh
