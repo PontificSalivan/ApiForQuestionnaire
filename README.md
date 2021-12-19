@@ -17,15 +17,15 @@ cd ./Questionnaire_API
 ```
 #### Запустите команду docker:
 ```sh
-docker-compose build
+docker-compose build (sudo docker-compose build)
 ```
 #### Создайте миграции приложения для базы данных:
 ```sh
-docker-compose run web python manage.py migrate
+docker-compose run web python manage.py migrate (sudo docker-compose run web python manage.py migrate)
 ```
 #### Создайте суперпользователя:
 ```sh
-docker-compose run web python manage.py createsuperuser 
+docker-compose run web python manage.py createsuperuser (sudo docker-compose run web python manage.py createsuperuser)
 ```
 #### Заполните поля регистрации ( почта необязательна ):
 ```sh
@@ -38,7 +38,7 @@ Superuser created successfully.
 
 #### Запустите приложение (localhost: http://0.0.0.0:8000/):
 ```sh
-docker-compose up
+docker-compose up (sudo docker-compose up)
 ```
 
 # Документация API
